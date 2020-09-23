@@ -94,6 +94,8 @@ img {
 
 .section {
   padding: 4rem 0 2rem;
+  max-width: 800px;
+  margin: 40px auto 20px;
 }
 
 .section-title {
@@ -134,7 +136,6 @@ img {
 .nav {
   height: var(--header-height);
   display: flex;
-  padding: 1rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -143,7 +144,7 @@ img {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 90%;
+  width: 50%;
   height: 100vh;
   padding: 3rem;
   display: flex;
@@ -192,12 +193,14 @@ img {
 }
 
 .home__container {
+  row-gap: 2rem;
   height: calc(100vh - var(--header-height));
   align-items: center;
 }
 
 .home__data {
   display: flex;
+  align-items: center;
   flex-direction: column;
   align-items: center;
   height: max-content;
@@ -207,7 +210,6 @@ img {
 .home__img {
   padding-top: 1.3rem;
   padding-left: -0.5rem;
-
   padding-right: 1.3rem;
   width: 160px;
   height: 160px;
@@ -341,4 +343,31 @@ img {
 
 .skill__android {
   width: 80%;
+}
+
+.family-container {
+  max-width: 800px;
+  margin: 40px auto 20px;
+}
+
+.family-container .floating-image {
+  width: 160px;
+  height: 160px;
+}
+
+.family-container .floating-image.left {
+  float: left;
+  margin-right: 35px;
+}
+
+.family-container .floating-image.right {
+  float: right;
+  margin-left: 35px;
+}
+
+.img-fam {
+  width: 460px;
+  height: 260px;
+  margin-top: 35px;
+  margin-left: 20%;
 }
