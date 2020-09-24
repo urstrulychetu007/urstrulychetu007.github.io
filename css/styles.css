@@ -368,6 +368,28 @@ img {
 .img-fam {
   width: 460px;
   height: 260px;
-  margin-top: 35px;
-  margin-left: 20%;
+  margin: auto;
+}
+.friends-container {
+  width: 360px;
+  margin: auto;
+  overflow: auto;
+  background: var(--first-color-light);
+}
+
+.gallery {
+  margin: 10px;
+  float: left;
+  width: max-content;
+}
+
+.gallery img {
+  width: 160px;
+  height: 180px;
+}
+
+.friend__links {
+  text-decoration: underline;
+  color: brown;
+  text-transform: uppercase;
 }
