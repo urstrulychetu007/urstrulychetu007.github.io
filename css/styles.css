@@ -374,7 +374,6 @@ img {
   width: 360px;
   margin: auto;
   overflow: auto;
-  background: var(--first-color-light);
 }
 
 .gallery {
@@ -392,4 +391,32 @@ img {
   text-decoration: underline;
   color: brown;
   text-transform: uppercase;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}
+
+.prabhas-container {
+  max-width: 800px;
+  margin: auto;
+  background: var(--first-color-light);
+}
+
+.prabhas-container .floating-image {
+  width: 160px;
+  height: 160px;
+}
+
+.prabhas-container .floating-image.left {
+  float: left;
+  margin-right: 35px;
+}
+
+.prabhass-container .floating-image.right {
+  float: right;
+  margin-left: 35px;
 }
