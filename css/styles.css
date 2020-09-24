@@ -420,3 +420,46 @@ img {
   float: right;
   margin-left: 35px;
 }
+
+.prabhas-img {
+  width: 340px;
+  height: 360px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding-left: var(--nav-width);
+  }
+
+  .l-header {
+    width: 0;
+  }
+
+  .nav__toggle,
+  .nav__closed {
+    display: none;
+  }
+  .nav__menu {
+    left: 0;
+    width: 20%;
+  }
+
+  .family-container {
+    margin: 75px;
+  }
+  .friends-container {
+    width: auto;
+    margin: auto;
+    overflow: auto;
+  }
+}
+
+.link2 {
+  color: black;
+  font-size: larger;
+  font-style: var(--font-bold);
+  text-decoration: underline;
+}
